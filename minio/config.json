@@ -7,6 +7,9 @@
   "startup": "services",
   "boot": "auto",
   "webui": "http://[HOST]:[PORT:9001]",
+  "ingress": true,
+  "panel_icon": "mdi:database",       
+  "panel_title": "MinIO"         
   "ports": {
     "9000/tcp": 9000,
     "9001/tcp": 9001
@@ -14,7 +17,7 @@
   "host_network": true,
   "environment": {
     "MINIO_ROOT_USER": "admin",
-    "MINIO_ROOT_PASSWORD": "changeme123"
+    "MINIO_ROOT_PASSWORD": "8898865"
   },
   "options": {},
   "schema": {}
